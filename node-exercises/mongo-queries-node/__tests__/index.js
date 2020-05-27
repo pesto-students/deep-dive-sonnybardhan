@@ -132,7 +132,7 @@ describe('Mongo Queries', () => {
       test('should add the field "myRating" to the movie "Iron Man 3" in movieDetails collection', async () => {
         await addField(db);
         const updatedMovie = await db.collection('movieDetails').findOne({ title: 'Iron Man 3' });
-        expect(updatedMovie.myRating).toBe(88);
+        expect(updatedMovie.myRating).toBe(90);
       });
     });
 
