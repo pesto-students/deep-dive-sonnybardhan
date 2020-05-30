@@ -1,8 +1,8 @@
 {
-  "name": "simple-odm",
+  "name": "SimpleODM",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Arfat Salman",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "client:install": "cd client && npm install",
