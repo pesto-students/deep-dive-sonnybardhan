@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(226, 216, 226);
+  height: 90vh;
+  width: 95vw;
+
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  height: 50vh;
+  width: 20vh;
+  background-color: rgba(252, 252, 252);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+}
+
+.bounce-box {
+  height: 50vh;
+  width: 20vh;
+  background-color: rgba(252, 252, 252);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+}
+
+.slide-box {
+  height: 20vh;
+  width: 90%;
+  background-color: rgba(252, 252, 252);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+}
+
+.circle {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(45, 115, 156);
+  border-radius: 50%;
+}
