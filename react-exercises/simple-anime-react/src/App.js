@@ -58,6 +58,12 @@ export default function App() {
 					</FadeOut>
 				</div>
 			</div>
+      <div className="App">
+        <div className="">Bounce</div>
+        <div className="">Pulse</div>
+        <div className="">Fade-in</div>
+        <div className="">Fade-out</div>
+      </div>
 			<div className="App">
 				<div className="slide-box">
 					<Slide
@@ -72,6 +78,9 @@ export default function App() {
 					</Slide>
 				</div>
 			</div>
+      <div className="App">
+        <div className="">Slide</div>
+      </div>
 		</>
 	)
 }
